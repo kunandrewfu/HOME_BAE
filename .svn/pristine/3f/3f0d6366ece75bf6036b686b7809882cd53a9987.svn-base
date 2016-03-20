@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Yuan Liu @ SCUT</title>
+    <link href="./stylesheets/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="container">
+    <header>
+        <p>
+        <h1><span id="header_name">Yuan Liu (刘元)</span></h1></p>
+    </header>
+    <nav>
+        <ul id="navbar">
+            <li><a href="/" alt="home">Home</a></li>
+            <li><a href="/research" alt="research">Research</a></li>
+            <li><a href="/publication" alt="publication">Publication</a></li>
+            <li><a href="/service" alt="service">Service</a></li>
+            <li><a href="/students" alt="students">Students</a></li>
+        </ul>
+    </nav>

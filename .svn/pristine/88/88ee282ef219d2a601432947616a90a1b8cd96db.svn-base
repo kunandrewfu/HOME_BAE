@@ -1,0 +1,232 @@
+@font-face {
+    font-family: Oswald-Bold;
+    src: url('../stylesheets/Oswald-Bold.otf');
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url('../stylesheets/Oswald-Light.ttf')
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: rgba(43, 81, 179, 1);
+}
+
+span.title {
+    font-family: 'Oswald', Helvetica, Arial, sans-serif;
+    font-size: 2vw;
+}
+span.subtitle {
+    font-family: 'Oswald', Helvetica, Arial, sans-serif;
+    font-size: 1.5vw;
+}
+
+span.title2 {
+    font-family: 'Oswald', Helvetica, Arial, sans-serif;
+    font-size: 2vw;
+    color: #ffffff;
+}
+
+p.para {
+    font-family:Helvetica, Helvetica, Arial, sans-serif;
+    font-size: 1vw;
+}
+
+p.para2 {
+    font-family:Helvetica, Helvetica, Arial, sans-serif;
+    font-size: 1vw;
+    color: #ffffff;
+}
+
+body {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background: transparent url(../images/x.jpg) top left fixed repeat-x;
+    background-size: 100% 100%;
+}
+
+#container {
+    background-color: transparent;
+    padding: 0;
+    margin: 0 auto;
+
+}
+
+header {
+    background: rgba(255, 255, 255, 0.9);
+    margin: 0 auto;
+    padding: 2em;
+    height: 5vw;
+}
+
+header #header_name {
+    font-family: 'Times New Roman', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 6vw;
+}
+
+nav ul {
+    width: 100%;
+    height: 50px;
+    background: rgba(43, 81, 179, 0.9);
+    margin: 0 auto;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+    height: 4px;
+    margin: 0;
+    padding: 24px 0px;
+    border-right: 2px solid rgba(0, 81, 179, 0.9);
+    border-left: 2px solid rgba(0, 81, 179, 0.9);
+    transition: background-color 0.7s;
+
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 0 20px;
+    height: 50px;
+    line-height: 60px;
+    font-family: 'Oswald', Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5vw;
+}
+
+nav ul li:hover {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+nav a :link {
+    color: #086BAF;
+}
+
+nav a :visited {
+    color: #086BAF;
+}
+
+#content {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 30px 20px;
+    overflow: auto;
+}
+#content ul{
+    padding:1px 100px 1px 20px;
+    font-size:1vw;
+}
+#content2 {
+    background-color: rgba(43, 81, 179, 0.9);
+    padding: 30px 20px;
+}
+
+
+#content3 {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 30px 20px;
+    overflow: auto;
+}
+
+#descrip img {
+    width: 90%;
+    height: auto;
+}
+
+section #s1_photo {
+    width: 55%;
+    float: left;
+
+}
+
+section #s1_txt {
+    width: 40%;
+    float: left;
+    font-family:Helvetica, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 1vw;
+
+}
+
+#descrip {
+    height: 26vw;
+}
+
+#news {
+    padding: 0 1vw;
+}
+
+#news li {
+    font-family:Helvetica, Helvetica, Arial, sans-serif;
+    font-size: 1vw;
+    color: #ffffff;
+}
+
+#awards {
+    padding: 0 1vw;
+}
+
+#awards li {
+    font-family:Helvetica, Helvetica, Arial, sans-serif;
+    font-size: 1vw;
+    color: #ffffff;
+}
+
+#updated {
+    clear: both;
+}
+
+#visitors {
+    padding: 0 1vw;
+}
+
+#visitors li {
+    font-family:Helvetica, Helvetica, Arial, sans-serif;
+    font-size: 1vw;
+}
+
+footer {
+    background-color: rgba(43, 81, 179, 0.9);
+    padding: 1vw 1vw;
+    text-align: center;
+    border-radius: 0px 0px 20px 20px;
+    color: #ffffff;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+.students_p{
+    width:18%;
+    overflow: hidden;
+    float: left;
+}
+.students_p img{
+    width:90%;
+    border: 5px solid #ddd;
+    padding: 0px;
+    background: #fff;
+}
+.students_t{
+    width:24%;
+    overflow: hidden;
+    float: left;
+    text-align:left;
+    position: relative;
+    top: 40%;
+    transform: translateY(40%);
+    font-size:1vw;
+    padding:2% 2%;
+}
+.student_info{
+    display: block;
+    float:left;
+    clear:both;
+}

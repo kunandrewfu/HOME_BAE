@@ -1,0 +1,154 @@
+<% include head.ejs %>
+<div id="content">
+    <h1><span class="subtitle">
+            Course
+        </span></h1>
+    <br>
+    <p class="para">
+    Course Name: Digital Communication Principle<br>
+    Textbook: 《数字通信原理》，冯穗力，电子工业出版社<br>
+    Reference: Fundamentals of Communication Systems, J. G. Proakis and M. Salehi, Pearson Prentice Hall 2005<br>
+    </p>
+    <br>
+    <h1><span class="subtitle">
+            Current group members
+        </span></h1>
+    <p class="para" >
+        Openings: Our group is always recruiting self-motivated graduates and undergraduates who are enthusiastic about wireless communication and networking.
+    </p>
+    <br>
+    <div class="student_info">
+        <div class="students_p">
+            <img src="./images/students_p/tangweijun.jpg">
+        </div>
+        <div class="students_t">
+            Weijun Tang, PhD student, focus on heterogeneous cellular network.
+        </div>
+
+        <div class="students_p">
+            <img src="./images/students_p/yaojianping.jpg">
+        </div>
+        <div class="students_t">
+            Jianping Yao, PhD student, focus on physical-layer security.
+        </div>
+    </div>
+    <div class="student_info">
+        <div class="students_p">
+            <img src="./images/students_p/chengxiangmei.jpg">
+        </div>
+        <div class="students_t">
+            Xiangmei Cheng, Master student, focus on D2D network.
+        </div>
+
+        <div class="students_p">
+            <img src="./images/students_p/xiazicheng.jpg">
+        </div>
+        <div class="students_t">
+            Zicheng Xia, undergraduate, focus on D2D networks.
+        </div>
+    </div>
+    <div class="student_info">
+        <div class="students_p">
+            <img src="./images/students_p/yanjiawei.jpg">
+        </div>
+        <div class="students_t">
+            Jiawei Yan, undergraduate, focus on D2D networks.
+        </div>
+
+        <div class="students_p">
+            <img src="./images/students_p/chenxi.jpg">
+        </div>
+        <div class="students_t">
+            Xi Chen, undergraduate, focus on game-theoretical analysis in spectrum-sharing network.
+        </div>
+    </div>
+
+    <div class="student_info">
+        <div class="students_p">
+            <img src="./images/students_p/liangzezu.jpg">
+        </div>
+        <div class="students_t">
+            Zezu Liang, undergraduate, focus on wireless powered communication.
+        </div>
+
+        <div class="students_p">
+            <img src="./images/students_p/yanjia.jpg">
+        </div>
+        <div class="students_t">
+            Jia Yan, undergraduate, focus on wireless powered communication.
+        </div>
+    </div>
+
+    <div class="student_info">
+        <div class="students_p">
+            <img src="./images/students_p/liumengyu.jpg">
+        </div>
+        <div class="students_t">
+            Mengyu Liu, undergraduate, focus on wireless powered communication.
+        </div>
+    </div>
+    <br>
+    <h1><span class="subtitle">
+            Alumni
+        </span></h1>
+    <br>
+    <div class="student_info">
+        <div class="students_p">
+            <img src="./images/students_p/zhangmeng.jpg">
+        </div>
+        <div class="students_t">
+            Meng Zhang, B.S. in 2015, now PhD student with The Chinese University of Hong Kong.
+        </div>
+
+        <div class="students_p">
+            <img src="./images/students_p/zhangrongbin.jpg">
+        </div>
+        <div class="students_t">
+            Rongbin Zhang, M.S. in 2015, now PhD student with City University of Hong Kong.
+        </div>
+    </div>
+    <div class="student_info">
+        <div class="students_p">
+            <img src="./images/students_p/zhouxiong.jpg">
+        </div>
+        <div class="students_t">
+            Xiong Zhou, PhD in 2015, now staff with Huawei, Shenzhen.
+        </div>
+
+        <div class="students_p">
+            <img src="./images/students_p/tangtianlei.jpg">
+        </div>
+        <div class="students_t">
+            Tianlei Tang, B.S. in 2013, Master with University of California at Los Angeles and now staff with
+            Bloomberg.
+        </div>
+    </div>
+    <div class="student_info">
+        <div class="students_p">
+            <img src="./images/students_p/zhanghao.jpg">
+        </div>
+        <div class="students_t">
+            Hao Zhang, B.S. in 2012, Master with Stanford University and now staff with Turn Inc.
+        </div>
+
+        <div class="students_p">
+            <img src="./images/students_p/mojianhua.jpg">
+        </div>
+        <div class="students_t">
+            Jianhua Mo, M.S. in 2013 (co-supervised with Prof. M. Tao), now PhD student with Univesrity of Texas at
+            Austin.
+        </div>
+    </div>
+    <div class="student_info">
+        <div class="students_p">
+            <img src="./images/students_p/lincen.jpg">
+        </div>
+        <div class="students_t">
+            Cen Lin, M.S. in 2013 (co-supervised with Prof. M. Tao), now PhD student with Georgia Institute of
+            Technology.
+        </div>
+    </div>
+
+
+</div>
+<% include foot.ejs %>

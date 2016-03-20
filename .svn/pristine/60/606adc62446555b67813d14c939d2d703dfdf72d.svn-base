@@ -1,0 +1,46 @@
+<% include head.ejs %>
+
+<div id="content">
+
+    <p class="para">
+    <h2><span class="subtitle">
+            Membership
+        </span></h2>
+    <ul>
+        <li>Member of IEEE</li>
+        <li>Member of IEEE Communications Society</li>
+    </ul>
+    <br>
+    <h2><span class="subtitle">
+            Technical Program Committee (TPC) Membership
+        </span></h2>
+    <ul>
+        <li>IEEE VTC 2014-2015</li>
+        <li>IEEE ICC 2015-2016</li>
+        <li>IEEE/CIC ICCC 2014-2015</li>
+        <li>WCSP 2014-2015</li>
+        <li>IEEE ICCS 2014;</li>
+    </ul>
+    <br>
+    <h2><span class="subtitle">
+            Reviewer
+        </span></h2>
+    <ul>
+        <li><a href="http://www.jsac.ucsd.edu/">IEEE Journal on Selected Areas in Communications</a></li>
+        <li><a href="https://mc.manuscriptcentral.com/jstsp-ieee"> IEEE Journal of Selected Topics in Signal
+               Processing</a></li>
+        <li><a href="http://mc.manuscriptcentral.com/tsp-ieee">IEEE Transactions on Signal Processing</a></li>
+        <li><a href="http://mc.manuscriptcentral.com/tcom">IEEE Transactions on Communications</a></li>
+        <li><a href="http://mc.manuscriptcentral.com/twc">IEEE Transactions on Wireless Communications</a></li>
+        <li><a href="https://mc.manuscriptcentral.com/tmc-cs">IEEE Transactions on Mobile Computing</a></li>
+        <li><a href="https://mc.manuscriptcentral.com/tvt-ieee">IEEE Transactions on Vehicular Technology</a></li>
+        <li><a href="http://mc.manuscriptcentral.com/comml-ieee">IEEE Communications Letters</a></li>
+        <li><a href="http://mc.manuscriptcentral.com/wcl">Wireless Communications Letters</a></li>
+    </ul>
+</div>
+
+
+</p>
+</div>
+
+<% include foot.ejs %>
